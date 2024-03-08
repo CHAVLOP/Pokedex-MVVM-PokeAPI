@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/pokemon"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnPokemonPorGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Pokemon por GPS"
+
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:radius="8dp" />
+
+    <Button
+        android:id="@+id/btnListaDePokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de Pokemon"
+        android:layout_margin="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:radius="8dp" />
+
+    <Button
+        android:id="@+id/btnBuscarPokemonAlAzar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar Pokemon al azar"
+        android:layout_margin="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:radius="8dp" />
+</LinearLayout>
